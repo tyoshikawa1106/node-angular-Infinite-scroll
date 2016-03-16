@@ -1,0 +1,23 @@
+html{
+  height: 100%;
+}
+
+body {
+  background-color: #FFF !important;
+  min-height: 100%;
+  min-width: 500px;
+}
+
+.headerLink {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.myHeader {
+  background-color: rgb(21, 137, 238);
+  color: #FFF;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.4);
+  text-shadow: 0 1px 1px #000;
+  z-index: 997;
+  margin-bottom: 20px;
+}

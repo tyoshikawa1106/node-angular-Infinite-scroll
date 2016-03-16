@@ -1,0 +1,45 @@
+<div infinite-scroll='loadMore()' infinite-scroll-distance='2' class="slds-feed slds-m-around--small">
+  <ul class="slds-feed__list">
+    <li class="slds-feed__item" ng-repeat='like in lists'>
+      <div class="slds-media slds-comment slds-hint-parent">
+        <div class="slds-media__figure">
+          <div class="slds-avatar slds-avatar--circle slds-avatar--medium">
+            <a href="#void" title="Jason Rodgers">
+              <img src="bower_components/salesforce-lightning-design-system/assets/images/avatar1.jpg" alt="Jason Rodgers" />
+            </a>
+          </div>
+        </div>
+        <div class="slds-media__body">
+          <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+            <p class="slds-truncate">
+              <a href="#void" title="Design Systems">Design Systems</a> -
+              <a href="#void" title="Jason Rodgers">Jason Rogers</a>
+            </p>
+            <button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small slds-shrink-none">
+              <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                <use xlink:href="bower_components/salesforce-lightning-design-system/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+              </svg>
+              <span class="slds-assistive-text">Show More</span>
+            </button>
+          </div>
+          <p class="slds-text-body--small">
+            <a href="#void" title="Click for single-item view of this post">18hr Ago</a>
+          </p>
+          <div class="slds-comment__content slds-text-longform">Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
+          <ul class="slds-list--horizontal slds-has-dividers--right slds-text-body--small">
+            <li class="slds-list__item">
+              <a href="#void" title="Like this item">
+                <button class="slds-button slds-button--icon-border slds-button--icon-small slds-m-right--small">
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="bower_components/salesforce-lightning-design-system/assets/icons/utility-sprite/svg/symbols.svg#like"></use>
+                  </svg>
+                  <span class="slds-assistive-text">Like</span>
+                </button> Like</a>
+            </li>
+            <li class="slds-list__item">{{like}} Likes</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
