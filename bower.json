@@ -12,7 +12,6 @@
     "angular-route": "1.4.x",
     "angular-resource": "1.4.x",
     "angular-animate": "1.4.x",
-    "ngInfiniteScroll": "1.0.x",
-    "salesforce-lightning-design-system": "1.0.x"
+    "ngInfiniteScroll": "1.0.x"
   }
 }
